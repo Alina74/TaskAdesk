@@ -1,0 +1,11 @@
+.section {
+    width: 100%;
+}
+
+.section_isGray {
+    background: var(--colorShadow);
+}
+
+.section_isDark {
+    background: var(--colorDarkBlue);
+}
