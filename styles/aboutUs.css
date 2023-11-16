@@ -73,7 +73,7 @@
     margin: auto;
 }
 
-@media screen and (width <= 990px) {
+@media screen and (max-width: 990px) {
     .pref {
         flex-direction: column;
         text-align: center;
@@ -102,7 +102,7 @@
     }
 }
 
-@media screen and (375px <= width <= 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
     .pref {
         margin-top: 100px;
         font-size: 22px;
